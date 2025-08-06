@@ -14,12 +14,3 @@ username = input("What is your name? -> ")
 username_length = len(username)
 
 print(f"The length of your name is: {username_length}")
-
-#Switch the data stored in the variables
-glass1 = "milk"
-glass2 = "juice"
-
-temp = glass1 #variables that we just temporary use are best named "temp"
-glass1 = glass2
-glass2 = temp
-print(f"Glass1={glass1}, Glass2={glass2}")

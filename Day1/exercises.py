@@ -12,4 +12,11 @@ print("Strings are strings of characters")
 print("String Concatenation is done with the + sign")
 print("New lines can be created with a \ and the letter n")
 
-#Third exercise
+#Third exercise - switch the data stored in the variables
+glass1 = "milk"
+glass2 = "juice"
+
+temp = glass1 #variables that we just temporary use are best named "temp"
+glass1 = glass2
+glass2 = temp
+print(f"Glass1={glass1}, Glass2={glass2}")
