@@ -1,10 +1,16 @@
-#transfer a line to comment with ctrl + / (left to R shift)
-print("Hello World!\nHelloWorld!") #new line = \n
-print("Hello" + " " +"Angela") #string concatenation - merging strings into one
+# Transfer a line to comment with ctrl + / (left to R shift)
 
-print("Hello " + input("What is your name? -> ")+"!") #this line of code will take the users input using the input() function
+# New line = \n
+print("Hello World!\nHelloWorld!")
 
-name = input("What is your name? -> ") #name is a variable that stores the data from the input() function
+# String concatenation - merging strings into one
+print("Hello" + " " +"Angela")
+
+# Take in the users input with: input()
+print("Hello " + input("What is your name? -> ")+"!")
+
+# name is a variable here that stores data from the input() function
+name = input("What is your name? -> ")
 
 #Take in the users input and print out the length of it
 print(len(input("What is your name? -> ")))
